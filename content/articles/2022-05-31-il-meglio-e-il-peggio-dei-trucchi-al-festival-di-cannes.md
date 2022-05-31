@@ -1,20 +1,32 @@
 ---
 title: Il meglio e il peggio dei trucchi al Festival di Cannes
 image: cannes.webp
-tags: ['evento', 'makeup']
+tags:
+  - evento
+  - makeup
 isPublished: true
 description: Il Festival di Cannes è sicuramente uno degli eventi
   cinematografici più attesi dell'anno. I trucchi delle star avranno soddisfatto
   le aspettative?
 ---
-## Something else title
+#### Festival di Cannes 2022, i beauty look
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id placerat odio. Sed quis purus nunc. Fusce et enim a nulla dapibus rutrum vel ac dolor. Sed sit amet augue neque. Maecenas dolor enim, scelerisque in sem congue, fringilla faucibus sem. Vivamus sodales in enim id ultricies. Mauris hendrerit bibendum mi nec maximus.
+La 75esima edizione conferma lo stile *trés chic* della bellezza classica. Tripudio di rossetti che rendono giustizia a questi anni passati con la mascherina e acconciature classiche ed istituzionali che donano alla *kermesse cinematografica* la sua eleganza di sempre.
 
-Donec sagittis massa quis justo maximus pulvinar. Donec gravida quam neque, sed tempus mauris bibendum at. Nulla vitae velit nec tortor laoreet tristique. Ut id eleifend quam. Nullam non enim eu purus bibendum semper. Vivamus tempor leo sit amet arcu congue, ut tempor ante varius. Ut ultricies pulvinar turpis ut varius. Nam pulvinar elit at nunc consequat eleifend. Sed pharetra, ante nec fermentum aliquam, nisl justo lobortis odio, ac commodo urna neque non leo. Praesent a libero congue, sagittis tellus aliquam, ultricies erat. In semper iaculis nulla, ac ultrices lorem tincidunt in. Ut placerat neque vestibulum, tincidunt quam mattis, iaculis lacus.
+Qualche guizzo sul fronte make up ci viene regalato dalle *over 60* che si dilettano con ***Eye Jewels*** in stile ***Euphoria*** e ***Smokey Eye*** ***allungati***.
 
-Proin fringilla congue elit ut hendrerit. Vivamus at orci at risus fringilla mattis. Sed placerat elit nisi, id elementum nisl condimentum at. Aliquam ligula orci, sollicitudin vel lacus ultrices, pellentesque vestibulum neque. Sed elit velit, congue eu massa congue, viverra suscipit neque. Praesent hendrerit eleifend sodales. Morbi tristique risus quam, sit amet convallis massa rhoncus eget. Fusce ipsum odio, porta quis ultricies eu, sagittis id quam. Phasellus vehicula sollicitudin turpis non porttitor. Suspendisse potenti. Suspendisse porttitor tellus vel tempus blandit. Mauris maximus arcu eu egestas euismod. Aliquam volutpat, nisi non interdum porta, ipsum massa vehicula est, quis gravida magna dolor vel sapien.
+**Andy McDowell**, 64 anni, è proprio la star che porta sul tapis rouge quel tanto atteso tocco *Euphoria*, presentandosi con *cristalli verdi en pendant* a decorare lo sguardo insieme alla sua ormai iconica chioma sale e pepe.
 
-Aliquam egestas sagittis condimentum. Sed vel erat et lacus sodales semper. Etiam nec consectetur sem. Nam eros erat, accumsan semper blandit sed, tempus sed nisi. Integer tempus ut tortor ut efficitur. Cras sed pulvinar dui. Nam vestibulum porttitor pharetra. Nunc et volutpat diam. Praesent sed nibh eleifend, dapibus mauris non, rutrum dui.
+Sono state molte le star a brillare quest'anno. La modella e attrice rumena **Madalina Ghenea**, 34 anni, ne è la conferma! Una chioma mossa e un po' ribelle come negli anni '80 e sguardo reso ancora più audace da una *linea spessa* di *eye-liner* che porta subito alla mente la nostra amata Sophia Loren.
 
-Quisque tincidunt tellus diam, sit amet molestie augue varius a. Donec pretium quam in est dapibus lobortis. Morbi ultrices nunc nunc, sed lacinia velit consectetur vitae. Praesent id ligula condimentum neque cursus tempus ac sit amet neque. In lacus tortor, ultrices nec nibh nec, consequat dapibus turpis. Aenean nisi lacus, molestie eget laoreet non, tempus ac massa. Donec eu ligula id libero euismod tempus. Nam rhoncus ut mauris id imperdiet.
+A regalarci sulla *croisette* altri make up all'insegna dello sparkling ci ha pensato anche **Leonnie Hanne**, 33 anni, proponendo il trend dei ***Jewerly Face***. Una cascata di strass azzurri che illuminano e impreziosiscono il suo sguardo.
+
+Già dalla prima serata del Festival di Cannes 2022 si assiste ad alcuni tra i beauty look più importanti, dal ***Dramatic Make Up*** di **Deepika Padukone**, 36 anni, con occhi dipinti di nero al rossetto rosso di **Bebe Vio**, 25 anni, scelta quest'anno come ambassador internazionale di L'Oréal Paris. Poi ancora la modella **Coco Rocha**, 33 anni, con un eye make up magnetico con ***sopracciglia liftate*** e ***eyeliner parallelo.***
+
+A confermarsi anche in questa edizione sono stati i ***Nude Look***, la stessa **Andie MacDowell** nell'ultima giornata ha sfoggiato un ***Age Make Up*** equilibrato con base e labbra all'insegna del *natural glow*. Molte attrici sono riuscite a sfoggiare look impeccabili.
+
+Alcuni beauty look sembrano mancare di *nozioni basilari*, come nel caso del make up di **Rebecca Hall**, 40 anni, che sfoggia un ***Dramatic Smokey-Eye*** lasciando la base troppo naturale. La parte inferiore degli occhi di **Deepika Padukone** viene sottolineata da un *ombretto sfumato* che evidenzia troppo occhiaie e borse, sarebbe stata sufficiente una bordatura netta all'interno della rima inferiore. **Aja Naomi King**, 37 anni, risulta eccessiva valorizzando sia gli occhi,  con uno ***Smokey-Eye***, che labbra indossando una tonalità rosa Barbie, un po' *too-much*.
+
+La palma d'oro è stata consegnata al film di Ruben Ostlund, *Triangle of Sadness*.
+
+**Sfoglia la gallery recap dei beauty look per essere ispirata nella creazione di nuovi make up!** Al prossimo anno!
