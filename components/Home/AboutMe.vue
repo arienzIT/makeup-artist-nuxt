@@ -12,7 +12,7 @@
       </div>
       <div class="w-full lg:w-1/2 mt-6 lg:mt-0 flex flex-col items-center lg:items-start">
         <section-title text="Chi sono" />
-        <h3 class="about-me__title font-title text-3xl lg:text-5xl font-black text-brown-default">
+        <h3 class="about-me__title text-center lg:text-left font-title text-3xl lg:text-5xl font-black text-brown-default">
           Il make-up non è solo sinonimo di bellezza, ma pura esaltazione delle forme.
         </h3>
         <p class="text-md lg:text-lg mt-8 text-brown-light">
