@@ -1,6 +1,6 @@
 <template>
   <section class="bg-page-bg about-me">
-    <div class="flex flex-col lg:flex-row container mx-auto py-32 px-4 lg:px-0 gap-32 lg:items-center">
+    <div class="flex flex-col lg:flex-row container mx-auto py-16 lg:py-20 lg:max-w-7xl mx-auto px-6 gap-2 lg:gap-32 lg:items-center">
       <div class="w-full lg:w-1/2 pr-4 lg:pr-0">
         <div class="about-me__image-wrapper relative">
           <img
@@ -12,7 +12,7 @@
       </div>
       <div class="w-full lg:w-1/2 mt-6 lg:mt-0">
         <section-title text="Chi sono" />
-        <h3 class="about-me__title font-title text-5xl text-brown-default">
+        <h3 class="about-me__title font-title text-3xl lg:text-5xl text-brown-default">
           Il make-up non è solo sinonimo di bellezza, ma pura esaltazione delle forme.
         </h3>
         <p class="text-xl mt-8">

@@ -3,9 +3,13 @@
     <div class="project__image-wrapper relative">
       <img
         :src="require('~/assets/images/portfolio/' + project.img)"
-        class="project__image w-full h-full object-cover"
+        class="project__image w-full object-cover"
       >
-      <div ref="projectFrame" class="absolute w-full h-full project__frame border-4 border-page-bg" :class="frameClasses" />
+      <div
+        ref="projectFrame"
+        class="absolute w-full h-full project__frame border-4 -right-[800px] border-page-bg"
+        :class="frameClasses"
+      />
       <div
         ref="projectModel"
         class="project__model w-full overflow-y-hidden absolute max-w-20 right-0 bottom-0 h-16 flex items-center bg-page-bg"
@@ -19,7 +23,7 @@
         </a>
       </div>
     </div>
-    <h4 class="project__title text-brown-dark font-title font-bold text-2xl font-bold mt-8">
+    <h4 class="project__title text-brown-dark font-title font-bold text-2xl font-bold mt-4 lg:mt-8">
       {{ project.title }}
     </h4>
     <p class="text-brown-default text-lg mt-3">
@@ -98,8 +102,8 @@ export default {
 
 <style lang="scss">
 .project {
-  &__image-wrapper {
-    height: 700px;
+  &__image {
+    aspect-ratio: 1;
   }
 
   &__model {
@@ -111,14 +115,26 @@ export default {
   }
 
   &__frame {
-    top: -40px;
+    top: -20px;
 
     &--right {
-      right: -40px;
+      right: -20px;
     }
 
     &--left {
-      left: -40px;
+      left: -20px;
+    }
+
+    @media (min-width: 1024px) {
+      top: -40px;
+
+      &--right {
+        right: -40px;
+      }
+
+      &--left {
+        left: -40px;
+      }
     }
   }
 

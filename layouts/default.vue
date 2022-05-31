@@ -1,7 +1,7 @@
 <template>
-  <div class="layout bg-rose-default flex flex-col">
+  <div class="layout bg-rose-default flex flex-col h-full">
     <NavBar />
-    <main class="main">
+    <main class="main h-full flex flex-col">
       <Nuxt />
     </main>
   </div>

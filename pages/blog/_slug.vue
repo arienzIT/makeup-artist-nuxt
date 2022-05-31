@@ -17,7 +17,7 @@
           <div class="border-4 absolute -top-8 -right-8 z-20 w-full h-full z-20 image-border" />
         </div>
       </div>
-      <div class="py-20 bg-page-bg">
+      <div class="py-16 lg:py-20 bg-page-bg">
         <div class="container mx-auto flex gap-24">
           <div class="sticky self-start flex-1 social-container flex flex-col gap-4">
             <share-network
