@@ -1,7 +1,8 @@
 <template>
   <nav class="navbar z-50 fixed top-0 left-0 w-full flex justify-between">
     <div class="navbar__content flex flex-1 justify-between text-brown-default border-b border-brown-default">
-      <div class="py-8 px-4 flex justify-between items-center flex-1 border-r border-brown-default">
+      <!-- @TODO add 'border-r border-brown-default' when uncommenting menu -->
+      <div class="py-8 px-4 flex justify-between items-center flex-1">
         <a href="/">
           <h1 class="navbar__logo text-xl lg:text-3xl font-body font-light">
             Sara Redaelli
@@ -15,7 +16,7 @@
           </li>
         </ul>
       </div>
-      <button
+      <!--      <button
         class="
       navbar__menu-btn
       z-50
@@ -32,7 +33,7 @@
       </nuxt-link>
       <nuxt-link ref="menuLink" to="/contacts" class="menu__link text-5xl mb-24">
         Contatti
-      </nuxt-link>
+      </nuxt-link>-->
       <!-- @TODO uncomment once blog list page implemented
       <nuxt-link ref="menuLink" class="menu__link text-5xl mb-24" to="/">
         Blog

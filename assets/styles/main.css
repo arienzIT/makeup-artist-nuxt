@@ -2,7 +2,3 @@ body {
   @apply font-body;
   @apply text-brown-dark;
 }
-
-html, body, #__nuxt, #__layout {
-  @apply h-full;
-}

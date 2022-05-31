@@ -28,5 +28,3 @@ A confermarsi anche in questa edizione sono stati i ***Nude Look***, la stessa *
 Alcuni beauty look sembrano mancare di *nozioni basilari*, come nel caso del make up di **Rebecca Hall**, 40 anni, che sfoggia un ***Dramatic Smokey-Eye*** lasciando la base troppo naturale. La parte inferiore degli occhi di **Deepika Padukone** viene sottolineata da un *ombretto sfumato* che evidenzia troppo occhiaie e borse, sarebbe stata sufficiente una bordatura netta all'interno della rima inferiore. **Aja Naomi King**, 37 anni, risulta eccessiva valorizzando sia gli occhi,  con uno ***Smokey-Eye***, che labbra indossando una tonalità rosa Barbie, un po' *too-much*.
 
 La palma d'oro è stata consegnata al film di Ruben Ostlund, *Triangle of Sadness*.
-
-**Sfoglia la gallery recap dei beauty look per essere ispirata nella creazione di nuovi make up!** Al prossimo anno!

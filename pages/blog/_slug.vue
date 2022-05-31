@@ -1,25 +1,25 @@
 <template>
-  <div>
-    <article class="mx-auto px:4 lg:px-0 pt-20 block">
-      <div class="container mx-auto text-center lg:max-w-7xl flex flex-col items-center">
-        <section-title class="px-4 py-2" :text="article.tags ? article.tags[0] : 'articolo'" />
-        <span class="text-center text-lg text-brown-default font-bold mt-4">{{ date }}</span>
-        <h1 class="text-center text-5xl text-brown-dark font-bold font-title mt-8">
+  <div class="px:4 lg:px-0 lg:pt-20">
+    <article class="mx-auto flex flex-col px-6 lg:px-0">
+      <div class="container mx-auto lg:text-center lg:max-w-7xl flex flex-col items-center order-2 lg:order-1 mt-6 lg:mt-0">
+        <section-title class="px-4 py-2 -ml-4 lg:ml-0 self-start lg:self-center" :text="article.tags ? article.tags[0] : 'articolo'" />
+        <span class="self-start lg:self-center text-md lg:text-lg text-brown-light font-bold lg:mt-4">{{ date }}</span>
+        <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-2 lg:mt-8">
           {{ article.title }}
         </h1>
-        <h2 class="mt-14 text-2xl text-brown-default">
+        <h2 class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default">
           {{ article.description }}
         </h2>
       </div>
-      <div class="image-wrapper relative">
+      <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
         <div class="container mx-auto relative z-10">
-          <img :src="require('~/assets/images/blog/' + article.image)" class="mt-20 object-cover w-full object-center">
-          <div class="border-4 absolute -top-8 -right-8 z-20 w-full h-full z-20 image-border" />
+          <img :src="require('~/assets/images/blog/' + article.image)" class="lg:mt-20 object-cover w-full object-center">
+          <div class="hidden lg:block border-4 absolute -top-8 -right-8 z-20 w-full h-full z-20 image-border" />
         </div>
       </div>
-      <div class="py-16 lg:py-20 bg-page-bg">
-        <div class="container mx-auto flex gap-24">
-          <div class="sticky self-start flex-1 social-container flex flex-col gap-4">
+      <div class="py-8 lg:py-20 lg:bg-page-bg order-3">
+        <div class="container mx-auto flex lg:gap-24 lg:max-w-7xl">
+          <div class="hidden lg:sticky self-start flex-1 social-container flex flex-col gap-4">
             <share-network
               class="w-16 h-16 p-4 flex items-center justify-center border border-brown-light hover:bg-brown-lightest"
               network="facebook"
@@ -136,7 +136,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .nuxt-content h1 {
   @apply text-4xl font-bold;
 }
@@ -149,11 +149,13 @@ export default {
 }
 
 .image-wrapper:after {
-  content: '';
-  @apply absolute;
-  @apply left-0 top-1/2 bottom-0;
-  @apply w-full;
-  @apply bg-page-bg;
+  @media(min-width: 1024px) {
+    content: '';
+    @apply absolute;
+    @apply left-0 top-1/2 bottom-0;
+    @apply w-full;
+    @apply bg-page-bg;
+  }
 }
 
 .social-container {
@@ -161,6 +163,6 @@ export default {
 }
 
 .image-border {
-  border-image: linear-gradient(to bottom, #fffaf8 calc(50% + 32px), #f7e6df calc(50% + 32px)) 1;
+  border-image: linear-gradient(to bottom, #fffaf8 calc(50%), #f7e6df calc(50%)) 1;
 }
 </style>

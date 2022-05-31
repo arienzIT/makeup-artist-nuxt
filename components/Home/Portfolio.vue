@@ -1,16 +1,18 @@
 <template>
   <section class="home-portfolio container mx-auto justify-center flex flex-col py-16 lg:py-20 px-6 lg:px-0 lg:max-w-7xl overflow-x-hidden">
     <section-title class="self-center" light text="Portfolio" />
-    <h4 class="mt-4 text-center font-title text-3xl lg:text-5xl text-brown-default">
+    <h4 class="mt-4 text-center font-title text-3xl lg:text-5xl font-black text-brown-default">
       Alcuni dei miei trucchi creativi, fashion e sposa
     </h4>
-    <div class="flex flex-col lg:flex-row mt-16 lg:mt-28 gap-20 lg:gap-56">
-      <project-card
-        v-for="(project, index) in projects"
+    <div class="grid grid-cols-1 lg:grid-cols-2 mt-8 lg:mt-16 gap-8 lg:gap-24">
+      <post-article
+        v-for="project in projects"
         :key="project.title"
-        :project="project"
-        :frame-position="index % 2 === 0 ? 'right' : 'left'"
-        :class="{'lg:mt-20': index % 2 !== 0}"
+        :title="project.title"
+        :description="project.description"
+        :image="require('~/assets/images/portfolio/' + project.img)"
+        :slug="project.slug"
+        image-ratio="square"
       />
     </div>
     <!-- @TODO uncomment once portfolio page implemented
