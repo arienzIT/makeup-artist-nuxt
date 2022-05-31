@@ -163,6 +163,6 @@ export default {
 }
 
 .image-border {
-  border-image: linear-gradient(to bottom, #fffaf8 calc(50%), #f7e6df calc(50%)) 1;
+  border-image: linear-gradient(to bottom, #fffaf8 calc(50% - 8px), #f7e6df calc(50% - 8px)) 1;
 }
 </style>
