@@ -64,7 +64,7 @@ export default {
   mounted () {
     gsap.registerPlugin(ScrollTrigger)
     ScrollTrigger.create({
-      start: 'top -90px',
+      start: 'top',
       end: 99999,
       toggleClass: {
         className: 'navbar--active',

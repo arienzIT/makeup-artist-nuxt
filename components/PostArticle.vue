@@ -1,6 +1,6 @@
 <template>
   <article class="border-2 lg:border-4 border-page-bg">
-    <nuxt-link :to="{name: 'blog-slug', params: { slug } }">
+    <a :href="href" target="_blank" class="cursor-pointer">
       <div class="relative">
         <img :src="image" class="p-4 lg:p-4 pb-0 object-cover w-full object-center relative" :class="`aspect--${imageRatio}`">
       </div>
@@ -12,7 +12,7 @@
           {{ description }}
         </h3>
       </div>
-    </nuxt-link>
+    </a>
   </article>
 </template>
 
@@ -43,6 +43,10 @@ export default {
     imageRatio: {
       type: String,
       default: 'auto'
+    },
+    href: {
+      type: String,
+      required: true
     }
   }
 }

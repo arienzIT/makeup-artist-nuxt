@@ -11,6 +11,7 @@
         :title="project.title"
         :description="project.description"
         :image="require('~/assets/images/portfolio/' + project.img)"
+        :href="project.modelProfileUrl"
         :slug="project.slug"
         image-ratio="square"
       />

@@ -5,7 +5,7 @@ img: trucco-halloween.jpeg
 alt: my first blog post
 categories: ["trucco", 'halloween']
 model: 'yleniailoveyou'
-modelProfileUrl: 'https://www.instagram.com/yleniailoveyou/'
+modelProfileUrl: 'https://www.instagram.com/reel/CVk8LQSA-IN/?igshid=MDJmNzVkMjY='
 ---
 
 # Trucco sposa soft peach
