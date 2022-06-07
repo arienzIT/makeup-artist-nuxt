@@ -47,8 +47,13 @@ export default {
     '@nuxtjs/dotenv',
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-9965410249159637"'
-    }]
+    }],
+    '@nuxtjs/google-analytics'
   ],
+
+  googleAnalytics: {
+    id: 'G-MW0G6WDTGG'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
