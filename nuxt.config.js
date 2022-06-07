@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'makeup',
+    title: 'Sara Redaelli - Make-up artist',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Sono una make-up artist e beauty expert pronta ad aggiornarti sulle nuove tendenze' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -44,7 +44,10 @@ export default {
   modules: [
     '@nuxt/content',
     'vue-social-sharing/nuxt',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-9965410249159637"'
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

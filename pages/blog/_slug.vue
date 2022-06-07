@@ -18,10 +18,10 @@
         </div>
       </div>
       <div class="py-8 lg:py-20 lg:bg-page-bg order-3">
-        <div class="container mx-auto flex lg:gap-24 lg:max-w-7xl">
-          <div class="hidden lg:sticky self-start flex-1 social-container flex flex-col gap-4">
+        <div class="container mx-auto flex lg:gap-24">
+          <div class="hidden lg:block sticky self-start flex-1 social-container flex flex-col gap-4">
             <share-network
-              class="w-16 h-16 p-4 flex items-center justify-center border border-brown-light hover:bg-brown-lightest"
+              class="w-16 h-16 p-4 flex items-center justify-center border border-brown-light hover:bg-brown-lightest mb-4"
               network="facebook"
               :url="url"
               :title="article.title"
@@ -42,6 +42,9 @@
             </share-network>
           </div>
           <nuxt-content :document="article" />
+          <div class="w-1/3">
+            <adsbygoogle ad-format="auto" />
+          </div>
         </div>
       </div>
     </article>
