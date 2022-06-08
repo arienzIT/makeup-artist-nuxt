@@ -8,9 +8,7 @@
         <h2 class="font-title text-2xl lg:text-3xl text-brown-dark font-bold hover:underline">
           {{ title }}
         </h2>
-        <h3 class="mt-2 text-md lg:text-lg text-brown-default">
-          {{ description }}
-        </h3>
+        <h3 v-html="description" class="mt-2 text-md lg:text-lg text-brown-default" />
       </div>
     </a>
   </article>
