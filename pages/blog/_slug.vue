@@ -7,7 +7,7 @@
         <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-6 lg:mt-8">
           {{ article.title }}
         </h1>
-        <h2 v-html="article.description" class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default" />
+        <h2 class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default" v-html="article.description" />
       </div>
       <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
         <div class="container mx-auto relative z-10">
@@ -152,6 +152,10 @@ export default {
 .nuxt-content p {
   @apply text-lg text-brown-dark;
   @apply mb-8;
+}
+
+.nuxt-content a {
+  text-decoration: underline;
 }
 
 .image-wrapper:after {
