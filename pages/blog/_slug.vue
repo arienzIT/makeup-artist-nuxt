@@ -12,8 +12,8 @@
       <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
         <div class="container mx-auto relative z-10">
           <picture class="w-full w-full">
-            <source media="(max-width: 799px)" width="480" height="300" :srcset="`${article.image}/-/resize/480x/`">
-            <source media="(max-width: 1300px)" width="1000" height="400" :srcset="`${article.image}/-/resize/1000x/`">
+            <source media="(max-width: 799px)" width="480" height="300" :srcset="`${article.image}/-/resize/480x/-/format/webp/`">
+            <source media="(max-width: 1300px)" width="1000" height="400" :srcset="`${article.image}/-/resize/1000x/-/format/webp/`">
             <img
               :src="`${article.image}/-/resize/1500x/`"
               width="1500"

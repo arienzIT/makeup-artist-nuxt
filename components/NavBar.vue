@@ -44,8 +44,8 @@
 </template>
 
 <script>
-/* import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger' */
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import InstagramIcon from '~/assets/icons/instagram.svg'
 
 export default {
@@ -59,10 +59,9 @@ export default {
       isMenuOpen: false,
       timeline: null
     }
-  }
+  },
 
-  // @TODO uncomment once articles page ready
-/*  mounted () {
+  mounted () {
     gsap.registerPlugin(ScrollTrigger)
     ScrollTrigger.create({
       start: 'top',
@@ -72,7 +71,8 @@ export default {
         targets: 'nav'
       }
     })
-
+  }
+/*
     this.timeline = gsap.timeline({ paused: true })
       .to(this.$refs.menu, {
         scale: 1,

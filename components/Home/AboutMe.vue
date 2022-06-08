@@ -4,8 +4,8 @@
       <div class="w-full lg:w-1/2 pr-4 lg:pr-0">
         <div class="about-me__image-wrapper relative">
           <picture class="h-full w-full object-cover aspect-square">
-            <source media="(max-width: 799px)" srcset="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/480x/">
-            <img src="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/800x/" alt="Sara Redaelli applica il trucco occhi">
+            <source media="(max-width: 799px)" srcset="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/480x/-/format/webp/">
+            <img src="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/800x/-/format/webp/" alt="Sara Redaelli applica il trucco occhi">
           </picture>
         </div>
       </div>
