@@ -144,6 +144,11 @@ export default {
 .nuxt-content h2 {
   @apply text-3xl font-title font-bold mb-4;
 }
+
+.nuxt-content h3 {
+  @apply text-2xl font-title font-bold mb-4;
+}
+
 .nuxt-content p {
   @apply text-lg text-brown-dark;
   @apply mb-8;

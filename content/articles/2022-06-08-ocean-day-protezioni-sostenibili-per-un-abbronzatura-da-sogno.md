@@ -6,6 +6,16 @@ description: Per celebrare la <i>Giornata Mondiale degli Oceani</i> è doveroso 
 tags:
   - ocean-day
   - solari
+
+articleImages:
+  - url: /solari/australian-gold-fresh-and-cool.jpeg
+    alt: Australian gold fresh and cool
+  - url: /solari/biotherme-waterlover-sun-mist.jpeg
+    alt: Biotherme waterlover sun mist
+  - url: /solari/lancaster-sun-beauty-sublime-tan.jpeg
+    alt: Lancaster sun beauty sublime tan
+  - url: /solari/veralab-para-sole.jpeg
+    alt: Veralab para sole e dopo sole
 ---
 Da gennaio 2021 prima le Hawaii poi la riviera Maya, in Messico, e l’isola caraibica di Bonaire hanno vietato l'uso di prodotti solari contenenti **ossibenzone** e **octinossato**.
 Molti marchi di solari hanno deciso di  allinearsi a queste leggi, proponendo formulazioni clean e vegane, a base di filtri fisici o minerali, *l'ossido di zinco* è uno dei filtri fisici più famosi, testate non solo sulla pelle, ma anche su coralli, fitoplancton e zooplancton.
@@ -36,3 +46,6 @@ Oltre a prodotti ocean friendly alcuni brand supportano iniziative, progetti e o
 - ## Plastic free & Lancaster
 *United for the sea* è il progetto che vedrà impegnate l’organizzazione no profit *Plastic Free* e il brand *Lancaster* per la rimozione di plastica e rifiuti su 4 spiagge italiane.
 Per unirsi a questa iniziativa basterà registrarsi al sito plasticfreeonlus.it e scegliere l’appuntamento più vicino a te.
+
+
+<article-slider title="Alcuni solari ocean-friendly consigliati" :images="articleImages"></article-slider>
