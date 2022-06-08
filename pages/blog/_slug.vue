@@ -4,12 +4,10 @@
       <div class="container mx-auto lg:text-center lg:max-w-7xl flex flex-col items-center order-2 lg:order-1 mt-6 lg:mt-0">
         <section-title class="px-4 py-2 -ml-4 lg:ml-0 self-start lg:self-center" :text="article.tags ? article.tags[0] : 'articolo'" />
         <span class="self-start lg:self-center text-md lg:text-lg text-brown-light font-bold lg:mt-4">{{ date }}</span>
-        <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-2 lg:mt-8">
+        <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-6 lg:mt-8">
           {{ article.title }}
         </h1>
-        <h2 class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default">
-          {{ article.description }}
-        </h2>
+        <h2 v-html="article.description" class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default" />
       </div>
       <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
         <div class="container mx-auto relative z-10">
@@ -42,7 +40,7 @@
             </share-network>
           </div>
           <nuxt-content :document="article" />
-          <div class="w-1/3">
+          <div class="w-1/3 hidden lg:block">
             <adsbygoogle ad-format="auto" />
           </div>
         </div>

@@ -8,7 +8,7 @@
         <i class="text-lg lg:text-2xl text-brown-light">Yves Saint Laurent</i>
       </div>
       <CircularButton
-        radius="70"
+        :radius="70"
         class="text-brown-light mt-6 lg:mt-16"
         text="Contattami per maggiori informazioni"
         href="mailto:sara.kate.redaelli@gmail.com"
