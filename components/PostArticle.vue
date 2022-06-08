@@ -3,7 +3,7 @@
     <a :href="href" target="_blank" class="cursor-pointer">
       <div class="relative">
         <img
-          :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/'"
+          :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/-/format/webp/'"
           loading="lazy"
           height="250"
           width="400"
