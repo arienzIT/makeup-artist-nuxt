@@ -1,7 +1,7 @@
 ---
 title: Dolcetto o scherzetto Make up
 description: Look realizzato per la bella Ylenia di Radio 105 per un suo fantastico reel di Halloween.
-img: trucco-halloween.jpeg
+img: trucco-halloween.webp
 alt: my first blog post
 categories: ["trucco", 'halloween']
 model: 'yleniailoveyou'

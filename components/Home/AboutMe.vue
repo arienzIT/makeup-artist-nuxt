@@ -4,7 +4,7 @@
       <div class="w-full lg:w-1/2 pr-4 lg:pr-0">
         <div class="about-me__image-wrapper relative">
           <img
-            src="~/assets/images/about-me.jpeg"
+            src="~/assets/images/about-me.webp"
             alt="trucco rosa"
             class="h-full w-full object-cover aspect-square"
           >

@@ -16,7 +16,7 @@
       />
     </div>
     <div class="w-full lg:w-1/2 lg:order-2">
-      <img src="~/assets/images/photo-bg.png" alt="Sara Redaelli" class="relative z-10">
+      <img src="~/assets/images/photo-bg.webp" alt="Sara Redaelli" class="relative z-10">
     </div>
   </header>
 </template>

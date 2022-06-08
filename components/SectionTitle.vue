@@ -24,7 +24,7 @@ export default {
 
     backgroundStyle () {
       return {
-        backgroundImage: `url(${require('~/assets/images/' + this.imageUrl + '.png')})`
+        backgroundImage: `url(${require('~/assets/images/' + this.imageUrl + '.webp')})`
       }
     }
   }

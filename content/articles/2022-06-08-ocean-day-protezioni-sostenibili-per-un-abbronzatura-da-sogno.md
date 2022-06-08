@@ -1,6 +1,6 @@
 ---
 title: "I solari ocean friendly: protezioni sostenibili per un’abbronzatura da sogno"
-image: ocean.jpg
+image: ocean.webp
 isPublished: true
 description: Per celebrare la <i>Giornata Mondiale degli Oceani</i> è doveroso approfondire e ribadire il concetto <strong>ocean friendly</strong> che garantisce il rispetto da parte delle aziende dell'ambiente marino e dei suoi abitanti.
 tags:
@@ -8,13 +8,13 @@ tags:
   - solari
 
 articleImages:
-  - url: /solari/australian-gold-fresh-and-cool.jpeg
+  - url: /solari/australian-gold-fresh-and-cool.webp
     alt: Australian gold fresh and cool
-  - url: /solari/biotherme-waterlover-sun-mist.jpeg
+  - url: /solari/biotherme-waterlover-sun-mist.webp
     alt: Biotherme waterlover sun mist
-  - url: /solari/lancaster-sun-beauty-sublime-tan.jpeg
+  - url: /solari/lancaster-sun-beauty-sublime-tan.webp
     alt: Lancaster sun beauty sublime tan
-  - url: /solari/veralab-para-sole.jpeg
+  - url: /solari/veralab-para-sole.webp
     alt: Veralab para sole e dopo sole
 ---
 Da gennaio 2021 prima le Hawaii poi la riviera Maya, in Messico, e l’isola caraibica di Bonaire hanno vietato l'uso di prodotti solari contenenti **ossibenzone** e **octinossato**.
