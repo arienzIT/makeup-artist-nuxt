@@ -11,7 +11,7 @@
         :title="article.title"
         :description="article.description"
         :href="`/blog/${article.slug}`"
-        :image="require('~/assets/images/blog/' + article.image)"
+        :image="article.image"
         :slug="article.slug"
       />
     </div>

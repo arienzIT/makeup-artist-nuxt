@@ -1,6 +1,7 @@
 ---
 title: "I solari ocean friendly: protezioni sostenibili per un’abbronzatura da sogno"
-image: ocean.webp
+image: https://ucarecdn.com/23c7b6b4-c184-4075-be3c-415e23cdb6f5
+imageAlt: Oceano con barriera corallina
 isPublished: true
 description: Per celebrare la <i>Giornata Mondiale degli Oceani</i> è doveroso approfondire e ribadire il concetto <strong>ocean friendly</strong> che garantisce il rispetto da parte delle aziende dell'ambiente marino e dei suoi abitanti.
 tags:

@@ -11,7 +11,18 @@
       </div>
       <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
         <div class="container mx-auto relative z-10">
-          <img :src="require('~/assets/images/blog/' + article.image)" class="lg:mt-20 object-cover w-full object-center">
+          <picture class="w-full w-full">
+            <source media="(max-width: 799px)" width="480" height="300" :srcset="`${article.image}/-/resize/480x/`">
+            <source media="(max-width: 1300px)" width="1000" height="400" :srcset="`${article.image}/-/resize/1000x/`">
+            <img
+              :src="`${article.image}/-/resize/1500x/`"
+              width="1500"
+              height="600"
+              :alt="article.imageAlt"
+              loading="lazy"
+              class="w-full lg:mt-20 object-cover object-center"
+            >
+          </picture>
           <div class="hidden lg:block border-4 absolute -top-8 -right-8 z-20 w-full h-full z-20 image-border" />
         </div>
       </div>

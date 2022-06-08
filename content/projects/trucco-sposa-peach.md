@@ -1,7 +1,7 @@
 ---
 title: Trucco fashion peach
 description: Make-up sui toni del pesca per una ragazza glamour, ma che non manca di una spiccata eleganza.
-img: trucco-sposa.webp
+img: https://ucarecdn.com/dc3f09d0-3a18-44ea-bd37-076aa4bd6531
 alt: my first blog post
 categories: ["trucco", 'occhi', 'sposa']
 model: 'Giulia Di Maria'

@@ -3,11 +3,10 @@
     <div class="flex flex-col lg:flex-row container mx-auto py-16 lg:py-20 lg:max-w-7xl mx-auto px-6 gap-2 lg:gap-32 lg:items-center">
       <div class="w-full lg:w-1/2 pr-4 lg:pr-0">
         <div class="about-me__image-wrapper relative">
-          <img
-            src="~/assets/images/about-me.webp"
-            alt="trucco rosa"
-            class="h-full w-full object-cover aspect-square"
-          >
+          <picture class="h-full w-full object-cover aspect-square">
+            <source media="(max-width: 799px)" srcset="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/480x/">
+            <img src="https://ucarecdn.com/3a1a89cd-bac5-4a10-b58b-f7af2ed59faf/-/resize/800x/" alt="Sara Redaelli applica il trucco occhi">
+          </picture>
         </div>
       </div>
       <div class="w-full lg:w-1/2 mt-6 lg:mt-0 flex flex-col items-center lg:items-start">

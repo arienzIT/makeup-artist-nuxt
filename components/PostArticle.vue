@@ -2,13 +2,20 @@
   <article class="border-2 lg:border-4 border-page-bg">
     <a :href="href" target="_blank" class="cursor-pointer">
       <div class="relative">
-        <img :src="image" class="p-4 lg:p-4 pb-0 object-cover w-full object-center relative" :class="`aspect--${imageRatio}`">
+        <img
+          :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/'"
+          loading="lazy"
+          height="250"
+          width="400"
+          class="p-4 lg:p-4 pb-0 object-cover w-full object-center relative"
+          :class="`aspect--${imageRatio}`"
+        >
       </div>
       <div class="p-4">
         <h2 class="font-title text-2xl lg:text-3xl text-brown-dark font-bold hover:underline">
           {{ title }}
         </h2>
-        <h3 v-html="description" class="mt-2 text-md lg:text-lg text-brown-default" />
+        <h3 class="mt-2 text-md lg:text-lg text-brown-default" v-html="description" />
       </div>
     </a>
   </article>
