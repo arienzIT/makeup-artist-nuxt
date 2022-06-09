@@ -2,15 +2,15 @@
   <nav class="navbar z-50 fixed top-0 left-0 w-full flex justify-between">
     <div class="navbar__content flex flex-1 justify-between text-brown-default border-b border-brown-default">
       <!-- @TODO add 'border-r border-brown-default' when uncommenting menu -->
-      <div class="py-8 px-4 flex justify-between items-center flex-1">
-        <a href="/">
-          <h1 class="navbar__logo text-xl lg:text-3xl font-body font-light">
-            Sara Redaelli
+      <div class="p-6 flex justify-between items-center flex-1">
+        <a href="/" class="h-full">
+          <h1 class="navbar__logo text-xl lg:text-3xl font-body font-light h-full">
+            <img src="https://ucarecdn.com/8ea7f263-bf5c-47d7-8a29-e0e3bd0a5393/" alt="Sara Redaelli iniziali logo" class="h-full">
           </h1>
         </a>
         <ul>
           <li>
-            <a target="_blank" href="https://www.instagram.com/sara.redaelli/" alt="Sara Redaelli profilo instagram">
+            <a target="_blank" href="https://www.instagram.com/sara.redaelli/">
               <InstagramIcon class="h-8" />
             </a>
           </li>

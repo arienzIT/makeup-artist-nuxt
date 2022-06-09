@@ -1,6 +1,5 @@
 <template>
   <main class="bg-rose-default flex flex-col">
-    <NavBar />
     <HomeHero />
     <HomeAboutMe />
     <HomePortfolio />
