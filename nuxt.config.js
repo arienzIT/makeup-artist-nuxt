@@ -49,11 +49,24 @@ export default {
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-9965410249159637"'
     }],
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/sitemap'
   ],
 
   googleAnalytics: {
     id: 'UA-230922669-1'
+  },
+
+  sitemap: {
+    hostname: 'https://sararedaelli.me',
+    gzip: true,
+    exclude: [
+      '/admin/**'
+    ],
+    routes: [
+      '/blog/2022-05-31-il-meglio-e-il-peggio-dei-trucchi-al-festival-di-cannes',
+      '/blog/2022-06-08-ocean-day-protezioni-sostenibili-per-un-abbronzatura-da-sogno',
+    ]
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
