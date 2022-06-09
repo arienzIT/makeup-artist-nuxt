@@ -64,8 +64,8 @@ export default {
       '/admin/**'
     ],
     routes: [
-      '/blog/2022-05-31-il-meglio-e-il-peggio-dei-trucchi-al-festival-di-cannes',
-      '/blog/2022-06-08-ocean-day-protezioni-sostenibili-per-un-abbronzatura-da-sogno',
+      '/blog/il-meglio-e-il-peggio-dei-trucchi-al-festival-di-cannes',
+      '/blog/ocean-day-protezioni-sostenibili-per-un-abbronzatura-da-sogno',
     ]
   },
 
