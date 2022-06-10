@@ -1,6 +1,7 @@
 <template>
   <a :href="href" :style="buttonStyle" class="flex items-center justify-center relative">
-    <svg id="rounded-btn" viewBox="0 0 200 200" class="absolute">
+    <svg id="rounded-btn" viewBox="0 0 200 200" class="absolute" aria-labelledby="circularBtn">
+      <title id="circularBtn">{{ text }}</title>
       <defs>
         <path
           id="circlePath"
