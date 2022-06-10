@@ -17,8 +17,18 @@
     </div>
     <div class="w-full lg:w-1/2 lg:order-2">
       <picture>
-        <source media="(max-width: 799px)" srcset="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/400x/-/format/webp/">
-        <img src="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/800x/-/format/webp/" alt="Sara Redaelli in posa con i pennelli da trucco">
+        <source
+          media="(max-width: 799px)"
+          width="400"
+          height="500"
+          srcset="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/400x/-/format/webp/"
+        >
+        <img
+          src="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/800x/-/format/webp/"
+          width="800"
+          height="600"
+          alt="Sara Redaelli in posa con i pennelli da trucco"
+        >
       </picture>
     </div>
   </header>
