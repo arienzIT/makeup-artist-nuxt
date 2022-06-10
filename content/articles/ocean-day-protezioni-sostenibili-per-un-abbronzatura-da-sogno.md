@@ -44,7 +44,7 @@ Le creme solari che non inquinano il mare hanno un’attenzione particolare anch
 
 Oltre a prodotti ocean friendly alcuni brand supportano iniziative, progetti e onlus per il bene dell’ambiente marino.
 
-- ## Plastic free & Lancaster
+- ## Plastic free &amp; Lancaster
 *United for the sea* è il progetto che vedrà impegnate l’organizzazione no profit [Plastic free](https://www.plasticfreeonlus.it) e il brand *Lancaster* per la rimozione di plastica e rifiuti su 4 spiagge italiane.
 Per unirsi a questa iniziativa basterà registrarsi al sito plasticfreeonlus.it e scegliere l’appuntamento più vicino a te.
 
