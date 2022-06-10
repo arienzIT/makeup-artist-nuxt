@@ -9,7 +9,17 @@
 
 <script>
 export default {
-  name: 'LayoutDefault'
+  name: 'LayoutDefault',
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.sararedaelli.me' + this.$route.path
+        }
+      ]
+    }
+  }
 }
 </script>
 <style>
