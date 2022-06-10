@@ -1,6 +1,6 @@
 <template>
   <article class="border-2 lg:border-4 border-page-bg">
-    <a :href="href" target="_blank" class="cursor-pointer">
+    <nuxt-link :to="href" :target="target" class="cursor-pointer">
       <div class="relative">
         <img
           :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/-/format/webp/'"
@@ -18,7 +18,7 @@
         </h2>
         <h3 class="mt-2 text-md lg:text-lg text-brown-default" v-html="description" />
       </div>
-    </a>
+    </nuxt-link>
   </article>
 </template>
 
