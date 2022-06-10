@@ -12,6 +12,7 @@
         :description="article.description"
         :href="`/blog/${article.slug}`"
         :image="article.image"
+        :image-alt="article.imageAlt"
         :slug="article.slug"
       />
     </div>

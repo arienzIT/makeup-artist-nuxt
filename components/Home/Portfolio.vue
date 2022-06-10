@@ -11,6 +11,7 @@
         :title="project.title"
         :description="project.description"
         :image="project.img"
+        :image-alt="project.imgAlt"
         :href="project.modelProfileUrl"
         :slug="project.slug"
         image-ratio="square"

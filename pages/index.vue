@@ -13,7 +13,13 @@ export default {
   name: 'HomePage',
   head () {
     return {
-      script: [{ defer: true, src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
+      script: [{ defer: true, src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.sararedaelli.me' + this.$route.path
+        }
+      ]
     }
   }
 }

@@ -4,6 +4,7 @@
       <div class="relative">
         <img
           :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/-/format/webp/'"
+          :alt="imageAlt"
           loading="lazy"
           height="250"
           width="400"
@@ -30,6 +31,10 @@ export default {
       required: true
     },
     image: {
+      type: String,
+      required: true
+    },
+    imageAlt: {
       type: String,
       required: true
     },
