@@ -1,6 +1,6 @@
 ---
 title: Dolcetto o scherzetto Make up
-description: Look realizzato per la bella Ylenia di Radio 105 per un suo fantastico reel di Halloween.
+description: Ylenia (Radio 105) ha deciso di trasformarsi in una strega glamour sui toni del viola per la notte di Halloween.
 img: https://ucarecdn.com/757505a8-c498-4b7d-949e-230ca49905c1
 alt: my first blog post
 categories: ["trucco", 'halloween']
