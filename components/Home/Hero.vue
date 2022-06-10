@@ -20,13 +20,13 @@
         <source
           media="(max-width: 799px)"
           width="400"
-          height="500"
+          height="518"
           srcset="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/400x/-/format/webp/"
         >
         <img
           src="https://ucarecdn.com/fd5203e6-13da-4911-8058-d46dc6a80ecf/-/resize/800x/-/format/webp/"
-          width="800"
-          height="600"
+          width="624"
+          height="808"
           alt="Sara Redaelli in posa con i pennelli da trucco"
         >
       </picture>
