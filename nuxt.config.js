@@ -48,7 +48,8 @@ export default {
     'vue-social-sharing/nuxt',
     '@nuxtjs/dotenv',
     ['@nuxtjs/google-adsense', {
-      id: 'ca-pub-9965410249159637"'
+      id: 'ca-pub-9965410249159637"',
+      onPageLoad: true
     }],
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap',
