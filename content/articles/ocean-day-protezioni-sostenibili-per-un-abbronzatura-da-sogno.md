@@ -1,5 +1,5 @@
 ---
-title: "I solari ocean friendly: protezioni sostenibili per un’abbronzatura da sogno"
+title: "Ocean day: protezioni sostenibili per abbronzature da sogno"
 image: https://ucarecdn.com/23c7b6b4-c184-4075-be3c-415e23cdb6f5
 imageAlt: Oceano con barriera corallina
 isPublished: true

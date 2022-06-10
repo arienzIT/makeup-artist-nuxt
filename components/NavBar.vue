@@ -4,9 +4,7 @@
       <!-- @TODO add 'border-r border-brown-default' when uncommenting menu -->
       <div class="p-6 flex justify-between items-center flex-1">
         <a href="/" class="h-full">
-          <h1 class="navbar__logo text-xl lg:text-3xl font-body font-light h-full">
-            <img src="https://ucarecdn.com/8ea7f263-bf5c-47d7-8a29-e0e3bd0a5393/" alt="Sara Redaelli iniziali logo" class="h-full">
-          </h1>
+          <img src="https://ucarecdn.com/8ea7f263-bf5c-47d7-8a29-e0e3bd0a5393/" alt="Sara Redaelli iniziali logo" class="h-full">
         </a>
         <ul>
           <li>
