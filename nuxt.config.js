@@ -50,7 +50,8 @@ export default {
       id: 'ca-pub-9965410249159637"'
     }],
     '@nuxtjs/google-analytics',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
 
   googleAnalytics: {
@@ -67,6 +68,12 @@ export default {
       '/blog/il-meglio-e-il-peggio-dei-trucchi-al-festival-di-cannes',
       '/blog/ocean-day-protezioni-sostenibili-per-un-abbronzatura-da-sogno',
     ]
+  },
+
+  robots: {
+    Sitemap: 'https://sararedaelli.me/sitemap.xml',
+    UserAgent: 'Googlebot',
+    Disallow: /admin/
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

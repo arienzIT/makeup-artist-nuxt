@@ -2,9 +2,9 @@
   <main class="bg-rose-default flex flex-col">
     <HomeHero />
     <HomeAboutMe />
-    <HomePortfolio />
-    <HomeBanner />
     <HomeBlog />
+    <HomeBanner />
+    <HomePortfolio />
   </main>
 </template>
 
