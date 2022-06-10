@@ -1,9 +1,9 @@
 <template>
   <section class="home-portfolio container mx-auto justify-center flex flex-col py-16 lg:py-20 px-6 lg:px-0 lg:max-w-7xl overflow-x-hidden">
     <section-title class="self-center" light text="Portfolio" />
-    <h4 class="mt-4 text-center font-title text-3xl lg:text-5xl font-black text-brown-default">
+    <h3 class="mt-4 text-center font-title text-3xl lg:text-5xl font-black text-brown-default">
       Alcuni dei miei trucchi creativi, fashion e sposa
-    </h4>
+    </h3>
     <div class="grid grid-cols-1 lg:grid-cols-2 mt-8 lg:mt-16 gap-8 lg:gap-24">
       <post-article
         v-for="project in projects"

@@ -1,7 +1,7 @@
 <template>
-  <h3 :style="backgroundStyle" class="text-sm p-4 lg:text-xl font-bold uppercase mb-4 text-brown-default lg:p-8 inline-flex section-title">
+  <component :is="tag" :style="backgroundStyle" class="text-sm p-4 lg:text-xl font-bold uppercase mb-4 text-brown-default lg:p-8 inline-flex section-title">
     {{ text }}
-  </h3>
+  </component>
 </template>
 <script>
 export default {
@@ -14,6 +14,10 @@ export default {
     light: {
       type: Boolean,
       default: false
+    },
+    tag: {
+      type: String,
+      default: 'h2'
     }
   },
 

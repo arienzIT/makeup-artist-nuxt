@@ -2,7 +2,7 @@
   <div class="px:4 lg:px-0 lg:pt-20">
     <article class="mx-auto flex flex-col px-6 lg:px-0">
       <div class="container mx-auto lg:text-center lg:max-w-7xl flex flex-col items-center order-2 lg:order-1 mt-6 lg:mt-0">
-        <section-title class="px-4 py-2 -ml-4 lg:ml-0 self-start lg:self-center" :text="article.tags ? article.tags[0] : 'articolo'" />
+        <section-title tag="span" class="px-4 py-2 -ml-4 lg:ml-0 self-start lg:self-center" :text="article.tags ? article.tags[0] : 'articolo'" />
         <span class="self-start lg:self-center text-md lg:text-lg text-brown-light font-bold lg:mt-4">{{ date }}</span>
         <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-6 lg:mt-8">
           {{ article.title }}
