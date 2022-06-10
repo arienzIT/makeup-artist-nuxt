@@ -13,7 +13,7 @@ export default {
   name: 'HomePage',
   head () {
     return {
-      script: [{ defer: true, src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      script: [{ defer: true, async: false, src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       link: [
         {
           rel: 'canonical',

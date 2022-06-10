@@ -5,9 +5,9 @@
       <div class="p-6 flex justify-between items-center flex-1">
         <a href="/" class="h-full">
           <img
-            src="https://ucarecdn.com/8ea7f263-bf5c-47d7-8a29-e0e3bd0a5393/"
-            width="220"
-            height="164"
+            src="https://ucarecdn.com/8ea7f263-bf5c-47d7-8a29-e0e3bd0a5393/-/resize/60x42/"
+            width="60"
+            height="42"
             alt="Sara Redaelli iniziali logo"
             class="h-full"
           >
