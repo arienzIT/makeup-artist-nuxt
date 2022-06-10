@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sono una make-up artist e beauty expert pronta ad aggiornarti sulle nuove tendenze' },
+      { hid: 'description', name: 'description', content: 'Sono una make-up artist e beauty expert della provincia di Monza e Brianza, pronta ad aggiornarti sulle nuove tendenze di bellezza e a consigliarti i prodotti più adatti a te' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
