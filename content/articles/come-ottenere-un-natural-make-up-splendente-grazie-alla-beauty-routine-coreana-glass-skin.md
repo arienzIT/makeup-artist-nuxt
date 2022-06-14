@@ -1,5 +1,5 @@
 ---
-title: Make up naturale grazie alla routine skincare Glass skin.
+title: Make up naturale grazie alla routine skincare Glass skin
 description: Come ottenere un effetto luminoso sulla pelle grazie alla beauty routine coreana. I 5 passaggi skincare fondamentali
 image: https://ucarecdn.com/95d50880-cdd3-4bd2-a517-409e3857c2df/-/crop/16:9/center
 imageAlt: Oceano con barriera corallina
