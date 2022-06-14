@@ -1,5 +1,5 @@
 <template>
-  <div class="article-carousel">
+  <div class="article-carousel mb-16">
     <h3 v-if="title" class="text-2xl text-brown-dark font-title font-semibold">
       {{ title }}
     </h3>
