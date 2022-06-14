@@ -1,6 +1,11 @@
 <template>
   <article class="border-2 lg:border-4 border-page-bg">
-    <nuxt-link :to="href" :target="target" class="cursor-pointer">
+    <component
+      :is="componentTag"
+      v-bind="linkDynamicProps"
+      :target="target"
+      class="cursor-pointer"
+    >
       <div class="relative">
         <img
           :src="image + '/-/resize/x' + (imageRatio === 'square' ? '500' : '250') + '/-/format/webp/'"
@@ -18,7 +23,7 @@
         </h2>
         <h3 class="mt-2 text-md lg:text-lg text-brown-default" v-html="description" />
       </div>
-    </nuxt-link>
+    </component>
   </article>
 </template>
 
@@ -57,6 +62,26 @@ export default {
     href: {
       type: String,
       required: true
+    },
+    target: {
+      type: String,
+      default: '_self'
+    }
+  },
+
+  computed: {
+    isInternalLink () {
+      return this.href.startsWith('/')
+    },
+
+    componentTag () {
+      return this.isInternalLink ? 'nuxt-link' : 'a'
+    },
+
+    linkDynamicProps () {
+      return {
+        [this.isInternalLink ? 'to' : 'href']: this.href
+      }
     }
   }
 }

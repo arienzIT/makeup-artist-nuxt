@@ -19,7 +19,6 @@
               width="1500"
               height="600"
               :alt="article.imageAlt"
-              loading="lazy"
               class="w-full lg:mt-20 object-cover object-center"
             >
           </picture>
@@ -50,8 +49,9 @@
               <twitter-icon />
             </share-network>
           </div>
-          <nuxt-content :document="article" />
-          <div class="w-1/3 hidden lg:block">
+          <nuxt-content class="w-full" :document="article" />
+          <!-- @TODO uncomment after google ads approval -->
+          <div v-if="false" class="w-1/3 hidden lg:block">
             <adsbygoogle ad-format="auto" />
           </div>
         </div>
@@ -101,15 +101,7 @@ export default {
         },
         {
           name: 'twitter:data1',
-          content: 'David Parks'
-        },
-        {
-          name: 'twitter:label2',
-          content: 'Filed under'
-        },
-        {
-          name: 'twitter:data2',
-          content: this.article.tags ? this.article.tags.toString() : ''
+          content: 'Sara Redaelli'
         }
       ],
       link: [
@@ -187,7 +179,11 @@ export default {
 }
 
 .nuxt-content h3 {
-  @apply text-2xl font-title font-bold mb-4;
+  @apply text-3xl font-title font-bold mb-4;
+}
+
+.nuxt-content h4 {
+  @apply text-2xl font-title font-bold mb-3;
 }
 
 .nuxt-content p {
@@ -215,5 +211,9 @@ export default {
 
 .image-border {
   border-image: linear-gradient(to bottom, #fffaf8 calc(50% - 8px), #f7e6df calc(50% - 8px)) 1;
+}
+
+.nuxt-content-container {
+  width: 100%;
 }
 </style>
