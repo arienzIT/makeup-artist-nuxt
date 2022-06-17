@@ -1,7 +1,7 @@
 const type = 'website'
 const url = 'https://sararedaelli.me'
 const title = 'Sara Redaelli'
-const description = 'David Parks is a Front-end Developer from Milwaukee, Wisconsin. This blog will focus on Nuxt.js, Vue.js, CSS, Animation and more!'
+const description = 'Sono una make-up artist e beauty expert della provincia di Monza e Brianza, pronta ad aggiornarti sulle nuove tendenze di bellezza e a consigliarti i prodotti più adatti a te'
 const mainImage = ''
 const twitterSite = ''
 const twitterCard = 'summary_large_image'
@@ -66,6 +66,26 @@ export default (meta) => {
       hid: 'twitter:card',
       name: 'twitter:card',
       content: (meta && meta.twitterCard) || twitterCard
+    },
+    {
+      property: 'article:published_time',
+      content: meta.createdAt
+    },
+    {
+      property: 'article:modified_time',
+      content: meta.updatedAt
+    },
+    {
+      property: 'article:tag',
+      content: meta.tags ? meta.tags.toString() : ''
+    },
+    {
+      name: 'twitter:label1',
+      content: 'Written by'
+    },
+    {
+      name: 'twitter:data1',
+      content: 'Sara Redaelli'
     }
   ]
 }

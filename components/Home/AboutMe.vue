@@ -25,7 +25,7 @@
           Il make-up non è solo sinonimo di bellezza, ma pura esaltazione delle forme.
         </h3>
         <p class="text-md lg:text-lg mt-8 text-brown-light">
-          Con un background fortemente focalizzato sulle belle arti, dopo il conseguimento del diploma oriento i miei interessi verso l'ambito del beauty, specializzandomi in make-up correttivo presso la <a class="underline" href="https://www.bcm.it/" target="_blank">BCM Beauty Centre of Milan</a>.
+          Con un background fortemente focalizzato sulle belle arti, dopo il conseguimento del diploma oriento i miei interessi verso l'ambito del beauty, specializzandomi in trucco correttivo presso la <a class="underline" href="https://www.bcm.it/" target="_blank">BCM Beauty Centre of Milan</a>.
           Al termine del corso ho intrapreso la mia carriera come <em>make-up artist</em> e <em>vendeuse</em> presso la storica profumeria <a href="https://www.pinalli.it/" target="_blank" class="underline">Pinalli</a> di Seregno.
           Ho sviluppato negli anni una forte esperienza nella realizzazione di make-up sposa e fashion, oltre ad aver approfondito la cura della pelle, al fine di rendere ottimale la resa del trucco.
         </p>

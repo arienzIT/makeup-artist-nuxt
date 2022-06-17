@@ -62,6 +62,7 @@
 
 <script>
 import createSEOMeta from '../../utils/createSEOMeta'
+import createArticleStructuredData from '../../utils/createArticleStructuredData'
 import FacebookIcon from '~/assets/icons/facebook.svg'
 import TwitterIcon from '~/assets/icons/twitter.svg'
 
@@ -82,27 +83,7 @@ export default {
       description: this.article.description,
       script: [{ type: 'application/ld+json', json: this.structuredData }],
       meta: [
-        ...this.meta,
-        {
-          property: 'article:published_time',
-          content: this.article.createdAt
-        },
-        {
-          property: 'article:modified_time',
-          content: this.article.updatedAt
-        },
-        {
-          property: 'article:tag',
-          content: this.article.tags ? this.article.tags.toString() : ''
-        },
-        {
-          name: 'twitter:label1',
-          content: 'Written by'
-        },
-        {
-          name: 'twitter:data1',
-          content: 'Sara Redaelli'
-        }
+        ...this.meta
       ],
       link: [
         {
@@ -121,7 +102,10 @@ export default {
         title: this.article.title,
         description: this.article.description,
         url: this.url,
-        mainImage: this.article.image
+        mainImage: this.article.image,
+        createdAt: this.article.createdAt,
+        updatedAt: this.article.updatedAt,
+        tags: this.article.tags
       }
       return createSEOMeta(metaData)
     },
@@ -140,31 +124,7 @@ export default {
     },
 
     structuredData () {
-      return {
-        '@context': 'https://schema.org',
-        '@type': 'NewsArticle',
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': this.$route.fullPath
-        },
-        headline: this.article.title,
-        image: [this.article.image],
-        datePublished: this.article.createdAt,
-        dateModified: this.article.updatedAt,
-        author: {
-          '@type': 'Person',
-          name: 'Sara Redaelli',
-          url: 'https://sararedaelli.me'
-        },
-        publisher: {
-          '@type': 'Person',
-          name: 'Sara Redaelli',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://ucarecdn.com/d5b5d014-9fdd-434f-80b2-7d5c553399dc/'
-          }
-        }
-      }
+      return createArticleStructuredData(this.article, this.$route)
     }
   }
 }
