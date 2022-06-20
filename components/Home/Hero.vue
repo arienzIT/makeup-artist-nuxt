@@ -2,7 +2,7 @@
   <header class="home-hero w-full flex flex-col lg:flex-row items-center container lg:max-w-7xl mx-auto px-6 py-16 lg:py-20">
     <div class="w-full lg:w-1/2 order-2 lg:order-1">
       <h1 class="text-5xl lg:text-6xl text-white font-bold text-brown-default font-title break-words">
-        Sara Readelli,<br />make-up artist,<br /> truccatrice professionale a servizio del tuo corpo
+        Sara Readelli,<br />make-up artist.<br />Una truccatrice professionale a tuo servizio
       </h1>
       <h2 class="mt-4 lg:mt-8 text-lg lg:text-2xl text-brown-light">
         Lavorare come truccatrice professionista, un sogno diventato realtà
