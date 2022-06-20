@@ -69,7 +69,8 @@ export default {
     routes: [
       '/blog/il-meglio-e-il-peggio-dei-trucchi-al-festival-di-cannes',
       '/blog/ocean-day-protezioni-sostenibili-per-un-abbronzatura-da-sogno',
-      '/blog/come-ottenere-un-natural-make-up-splendente-grazie-alla-beauty-routine-coreana-glass-skin'
+      '/blog/come-ottenere-un-natural-make-up-splendente-grazie-alla-beauty-routine-coreana-glass-skin',
+      '/blog/effetto-glass-skin-gli-step-make-up-per-realizzarlo'
     ]
   },
 

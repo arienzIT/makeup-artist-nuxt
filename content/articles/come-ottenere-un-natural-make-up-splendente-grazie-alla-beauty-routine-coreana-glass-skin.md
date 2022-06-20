@@ -102,4 +102,4 @@ Il segreto alla base di tutto è quello di mantenere un impegno quotidiano costa
 
   <article-slider class="mb-16" :images="sunProtectionImages" :has-border="false"></article-slider>
 
-Questo articolo è la prima parte del tutorial su come ottenere un effetto glass skin attraverso i passaggi skincare.<br />A breve nella seconda parte andremo ad approfondire i passaggi make-up complementari da seguire per realizzare una perfetta <i>Glass skin</i>.
+Questo articolo è la prima parte del tutorial su come ottenere questo effetto luminoso e naturale attraverso i passaggi skincare.<br />Nella seconda parte andremo ad approfondire i <nuxt-link to="/blog/effetto-glass-skin-gli-step-make-up-per-realizzarlo">5 passaggi make-up</nuxt-link> complementari da seguire per realizzare una perfetta <i>Glass skin</i>.
