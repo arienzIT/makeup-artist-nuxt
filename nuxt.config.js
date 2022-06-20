@@ -16,6 +16,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9965410249159637',
+        crossOrigin: 'anonymous',
+        async: true
+      }
     ]
   },
 
@@ -47,10 +54,6 @@ export default {
     '@nuxt/content',
     'vue-social-sharing/nuxt',
     '@nuxtjs/dotenv',
-    ['@nuxtjs/google-adsense', {
-      id: 'ca-pub-9965410249159637"',
-      onPageLoad: true
-    }],
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots'
