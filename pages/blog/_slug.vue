@@ -61,10 +61,9 @@
 </template>
 
 <script>
-import createSEOMeta from '../../utils/createSEOMeta'
-import createArticleStructuredData from '../../utils/createArticleStructuredData'
 import FacebookIcon from '~/assets/icons/facebook.svg'
 import TwitterIcon from '~/assets/icons/twitter.svg'
+import {ArticleSEO} from "../../services/seo/article/ArticleSEO";
 
 export default {
   components: { FacebookIcon, TwitterIcon },
@@ -78,38 +77,10 @@ export default {
   },
 
   head () {
-    return {
-      title: this.article.title,
-      description: this.article.description,
-      script: [{ type: 'application/ld+json', json: this.structuredData }],
-      meta: [
-        ...this.meta
-      ],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: `https://sararedaelli.me/${this.article.slug}`
-        }
-      ]
-    }
+    return new ArticleSEO(this.article, this.$route).head
   },
 
   computed: {
-    meta () {
-      const metaData = {
-        type: 'article',
-        title: this.article.title,
-        description: this.article.description,
-        url: this.url,
-        mainImage: this.article.image,
-        createdAt: this.article.createdAt,
-        updatedAt: this.article.updatedAt,
-        tags: this.article.tags
-      }
-      return createSEOMeta(metaData)
-    },
-
     url () {
       return `${process.env.HOST_NAME}/blog/${this.article.slug}`
     },
@@ -122,10 +93,6 @@ export default {
         day: 'numeric'
       })
     },
-
-    structuredData () {
-      return createArticleStructuredData(this.article, this.$route)
-    }
   }
 }
 </script>
