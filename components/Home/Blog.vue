@@ -35,8 +35,8 @@ export default {
   async fetch () {
     this.articles = await this.$content('articles')
       .where({ isPublished: true })
+      .limit(5)
       .sortBy('createdAt', 'desc')
-      .limit(3)
       .fetch()
   }
 }

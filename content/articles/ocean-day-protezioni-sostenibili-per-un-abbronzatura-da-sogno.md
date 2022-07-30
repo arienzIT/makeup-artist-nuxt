@@ -3,6 +3,7 @@ title: "Ocean day: protezioni sostenibili per abbronzature da sogno"
 image: https://ucarecdn.com/23c7b6b4-c184-4075-be3c-415e23cdb6f5
 imageAlt: Oceano con barriera corallina
 isPublished: true
+articleCreatedAt: '08/06/2022'
 description: Per celebrare la <i>Giornata Mondiale degli Oceani</i> è doveroso approfondire e ribadire il concetto <strong>ocean friendly</strong> che garantisce il rispetto da parte delle aziende dell'ambiente marino e dei suoi abitanti.
 tags:
   - ocean-day

@@ -3,6 +3,7 @@ title: Il meglio e il peggio dei trucchi al Festival di Cannes
 image: https://ucarecdn.com/48b3d16a-65c1-46ea-8e8f-e459a0d7ef54
 imageAlt: Passerella festival di Cannes
 isPublished: true
+articleCreatedAt: '31/05/2022'
 description: Il Festival di Cannes è sicuramente uno degli eventi
   cinematografici più attesi dell'anno. I trucchi delle star avranno soddisfatto
   le aspettative?

@@ -4,6 +4,7 @@ description: Ultima novità del brand Nabla, la famiglia cupid's arrow si amplia
 image: https://ucarecdn.com/11022663-c17c-4dcf-b9ff-9a8a766f8242/
 imageAlt: Tutti i colori delle cupid's arrows
 isPublished: true
+articleCreatedAt: '30/07/2022'
 tags:
 - make up
 

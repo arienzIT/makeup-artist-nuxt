@@ -3,6 +3,7 @@ title: Gli steps make-up per realizzare l'effetto Glass skin
 description: Come ottenere un effetto luminoso sulla pelle grazie alla beauty routine coreana. I 5 passaggi make-up
 image: https://ucarecdn.com/ef5e1f96-50bf-4296-867f-563026e2681e/-/crop/16:9/center
 imageAlt: Foto di Irina Gromovataya
+articleCreatedAt: '17/06/2022'
 isPublished: true
 tags:
 - make-up
