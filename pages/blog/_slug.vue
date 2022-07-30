@@ -1,15 +1,15 @@
 <template>
-  <div class="px:4 lg:px-0 lg:pt-20">
+  <div class="px:4 lg:px-0 lg:pt-20 bg-page-bg">
     <article class="mx-auto flex flex-col px-6 lg:px-0">
-      <div class="container mx-auto lg:text-center lg:max-w-7xl flex flex-col items-center order-2 lg:order-1 mt-6 lg:mt-0">
+      <div class="container mx-auto lg:text-center lg:max-w-7xl flex flex-col items-center order-2 lg:order-1 mt-6 lg:mt-0 max-w-7xl mx-auto">
         <section-title tag="span" class="px-4 py-2 -ml-4 lg:ml-0 self-start lg:self-center" :text="article.tags ? article.tags[0] : 'articolo'" />
         <span class="self-start lg:self-center text-md lg:text-lg text-brown-light font-bold lg:mt-4">{{ date }}</span>
-        <h1 class=" font-title text-3xl lg:text-5xl font-black text-brown-dark mt-6 lg:mt-8">
+        <h1 class=" font-title text-3xl lg:text-5xl font-medium text-brown-dark mt-6 lg:mt-8">
           {{ article.title }}
         </h1>
         <h2 class="mt-4 lg:mt-14 text-xl lg:text-2xl font-semibold text-brown-default" v-html="article.description" />
       </div>
-      <div class="image-wrapper relative order-1 lg:order-2 -mx-6 lg:mx-0">
+      <div class="image-wrapper relative order-1 -mx-6 lg:mx-auto lg:order-2 max-w-7xl">
         <div class="container mx-auto relative z-10">
           <picture class="w-full w-full">
             <source media="(max-width: 799px)" width="480" height="300" :srcset="`${article.image}/-/resize/480x/-/format/webp/`">
@@ -25,7 +25,7 @@
           <div class="hidden lg:block border-4 absolute -top-8 -right-8 z-20 w-full h-full z-20 image-border" />
         </div>
       </div>
-      <div class="py-8 lg:py-20 lg:bg-page-bg order-3">
+      <div class="py-8 lg:py-20 max-w-7xl mx-auto order-3">
         <div class="container mx-auto flex lg:gap-24">
           <div class="hidden lg:block sticky self-start flex-1 social-container flex flex-col gap-4">
             <share-network
@@ -61,9 +61,9 @@
 </template>
 
 <script>
+import { ArticleSEO } from '../../services/seo/article/ArticleSEO'
 import FacebookIcon from '~/assets/icons/facebook.svg'
 import TwitterIcon from '~/assets/icons/twitter.svg'
-import {ArticleSEO} from "../../services/seo/article/ArticleSEO";
 
 export default {
   components: { FacebookIcon, TwitterIcon },
@@ -92,7 +92,7 @@ export default {
         month: 'long',
         day: 'numeric'
       })
-    },
+    }
   }
 }
 </script>
@@ -137,7 +137,7 @@ export default {
 }
 
 .image-border {
-  border-image: linear-gradient(to bottom, #fffaf8 calc(50% - 8px), #f7e6df calc(50% - 8px)) 1;
+  border-image: linear-gradient(to bottom, #886F6F calc(50% - 8px), #C1A3A3 calc(50% - 8px)) 1;
 }
 
 .nuxt-content-container {

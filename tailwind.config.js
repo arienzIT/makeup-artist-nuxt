@@ -18,7 +18,7 @@ module.exports = {
       },
       fontFamily: {
         title: ['Playfair Display'],
-        body: ['Montserrat']
+        body: ['Tinos']
       }
     }
   },

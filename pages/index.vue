@@ -1,8 +1,8 @@
 <template>
   <main class="bg-rose-default flex flex-col">
     <HomeHero />
-    <HomeAboutMe />
     <HomeBlog />
+    <HomeAboutMe />
     <HomeBanner />
     <HomePortfolio />
   </main>

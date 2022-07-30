@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-page-bg about-me">
+  <section class="about-me">
     <div class="flex flex-col lg:flex-row container mx-auto py-16 lg:py-20 lg:max-w-7xl mx-auto px-6 gap-2 lg:gap-32 lg:items-center">
       <div class="w-full lg:w-1/2 pr-4 lg:pr-0">
         <div class="about-me__image-wrapper relative">
