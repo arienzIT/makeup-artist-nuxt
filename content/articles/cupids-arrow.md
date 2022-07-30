@@ -35,7 +35,7 @@ Un giovane e indipendente brand italiano, che lavora per creare prodotti formula
 L’ultima novità in casa Nabla arriva con l’incremento di colori della linea Cupid’s Arrow.
 
 Sarà scontata per molti questa domanda, ma che cosa sono le Cupid’s Arrow? Un must-have per veri beauty addicted e make up artist, matite stylo multi-uso a lunga durata dalla consistenza cremosa, fondente, dall’immediato e intenso rilascio colore e dall’elegante design pouch friendly.
-Estremamente facili da usare e sfumare (anche solo con le dita) ma anche precise come come una freccia di Cupido.
+Estremamente facili da usare e sfumare (anche solo con le dita) ma anche precise come una freccia di Cupido.
 Il colore risulta pieno e opaco in una sola passata, grazie alla loro scorrevolezza e precisione della mina sempre temperabile con il loro temperino integrato.
 <article-slider class="mb-16 mt-4" :images="temperino" :has-border="false"></article-slider>
 
@@ -51,5 +51,5 @@ Oltre alla proposta POP il nuovo lancio include anche tre tonalità che ampliano
 Questi meravigliosi matitoni possono essere utilizzati anche sulle labbra. Ecco le tonalità che più amo utilizzare come matita/rossetto long lasting: Dragon Fruit, n. #1 e la n. #5
 <article-slider class="mb-16 mt-4" :images="matiteLabbra" :has-border="false"></article-slider>
 
-Un look grafico realizzato sulla pagina di Pinalli con le nuove Cupid’s Arrow Mint e Cappuccino.
+Un look grafico realizzato sulla pagina di <a target="_blank" href="https://www.instagram.com/reel/Cgbw1XMleOZ/?igshid=YmMyMTA2M2Y%3D">Pinalli</a> con le nuove Cupid’s Arrow Mint e Cappuccino.
 <article-slider class="mt-4" :images="trucco" :has-border="false"></article-slider>
