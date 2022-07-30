@@ -2,7 +2,7 @@
 title: Matitoni colorati Cupid's Arrow di Nabla
 description: Ultima novità del brand Nabla, la famiglia cupid's arrow si amplia con nuovi sgargianti colori.
 image: https://ucarecdn.com/11022663-c17c-4dcf-b9ff-9a8a766f8242/
-imageAlt: Tutti i colori delle cupid's arrows
+imageAlt: Tutti i colori delle Cupid's Arrow
 isPublished: true
 articleCreatedAt: '30/07/2022'
 tags:
@@ -24,23 +24,27 @@ pop:
 newCupidsArrow:
   - url: https://ucarecdn.com/87df4f8a-1a8e-42be-9e3c-fd1dd2585b80
     alt: "Nuove Cupid's Arrow"
+    
+temperino:
+  - url: https://ucarecdn.com/a1d9b3b4-77bf-40da-9418-9ab232948501
+    alt: "Temperino integrato Cupid's Arrow"
 ---
 Prodotti dalle altissime performance, innovativi ed unici, questa è NABLA.
 Un giovane e indipendente brand italiano, che lavora per creare prodotti formulati con i migliori ingredienti vegan e cruelty-free e con le tecnologie più avanzate, per incoraggiare l'espressione del proprio stile e della propria individualità.
 
 L’ultima novità in casa Nabla arriva con l’incremento di colori della linea Cupid’s Arrow.
 
-Sarà scontata per molti questa domanda, ma che cosa sono le Cupid’s Arrow?
-Si tratta di matite stylo multi-uso a lunga durata dalla consistenza cremosa, fondente, dall’immediato e intenso rilascio colore e dall’elegante design pouch friendly.
-Estremamente facili da usare e sfumare ma anche precise come come una freccia di Cupido.
-Il colore risulta pieno in una sola passata, grazie alla loro scorrevolezza e precisione della mina sempre temperabile con il loro temperino integrato.
+Sarà scontata per molti questa domanda, ma che cosa sono le Cupid’s Arrow? Un must-have per veri beauty addicted e make up artist, matite stylo multi-uso a lunga durata dalla consistenza cremosa, fondente, dall’immediato e intenso rilascio colore e dall’elegante design pouch friendly.
+Estremamente facili da usare e sfumare (anche solo con le dita) ma anche precise come come una freccia di Cupido.
+Il colore risulta pieno e opaco in una sola passata, grazie alla loro scorrevolezza e precisione della mina sempre temperabile con il loro temperino integrato.
+<article-slider class="mb-16 mt-4" :images="temperino" :has-border="false"></article-slider>
 
-La novità vede l’inserimento di ben sette nuove tonalità, di cui quattro in edizione limitata.
-La limited edition Arrow Pop propone colori freschi e frizzanti per questa estate 2022, per creare look unici sono state proposte queste meravigliose tonalità: Apricot, Dragon Fruit, Lavender e Mint.
+La novità vede l’inserimento di ben sette nuove tonalità, di cui quattro shade in edizione limitata e tre colori in gamma permanente.
+La limited edition Arrow Pop propone colori freschi e frizzanti per questa estate 2022, in linea con il trend colori pastello, per creare look unici sono state proposte queste meravigliose tonalità: Apricot, Dragon Fruit, Lavender e Mint.
 <article-slider class="mb-16 mt-4" :images="pop" :has-border="false"></article-slider>
 
 Matita occhi, eye-liner e ombretto in  crema questi sono i possibili utilizzi di queste meravigliose stylo.
-Oltre alla proposta POP il nuovo lancio include anche tre tonalità che ampliano la gamma delle C.A. con le tonalità: Ivory (#8), Cappuccino (#9), Midnight Gray (10#)
+Oltre alla proposta POP il nuovo lancio include anche tre tonalità che ampliano la gamma delle C.A. con le shade: Ivory (#8), Cappuccino (#9), Midnight Gray (10#)
 <article-slider class="mb-16 mt-4" :images="newCupidsArrow" :has-border="false"></article-slider>
 
 
