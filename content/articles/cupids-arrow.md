@@ -39,16 +39,16 @@ Estremamente facili da usare e sfumare (anche solo con le dita) ma anche precise
 Il colore risulta pieno e opaco in una sola passata, grazie alla loro scorrevolezza e precisione della mina sempre temperabile con il loro temperino integrato.
 <article-slider class="mb-16 mt-4" :images="temperino" :has-border="false"></article-slider>
 
-La novità vede l’inserimento di ben sette nuove tonalità, di cui quattro shade in edizione limitata e tre colori in gamma permanente.
+La novità vede l’inserimento di ben sette nuove tonalità, di cui quattro shades in edizione limitata e tre colori in gamma permanente.
 La limited edition Arrow Pop propone colori freschi e frizzanti per questa estate 2022, in linea con il trend colori pastello, per creare look unici sono state proposte queste meravigliose tonalità: Apricot, Dragon Fruit, Lavender e Mint.
 <article-slider class="mb-16 mt-4" :images="pop" :has-border="false"></article-slider>
 
 Matita occhi, eye-liner e ombretto in  crema questi sono i possibili utilizzi di queste meravigliose stylo.
-Oltre alla proposta POP il nuovo lancio include anche tre tonalità che ampliano la gamma delle C.A. con le shade: Ivory (#8), Cappuccino (#9), Midnight Gray (10#)
+Oltre alla proposta POP il nuovo lancio include anche tre tonalità che ampliano la gamma delle C.A. con le shades: Ivory (#8), Cappuccino (#9), Midnight Gray (10#)
 <article-slider class="mb-16 mt-4" :images="newCupidsArrow" :has-border="false"></article-slider>
 
 
-Questi meravigliosi matitoni possono essere utilizzati anche sulle labbra ecco le tonalità che più amo utilizzare come matita/rossetto long lasting sono: Dragon Fruit, n. #1 e la n. #5
+Questi meravigliosi matitoni possono essere utilizzati anche sulle labbra. Ecco le tonalità che più amo utilizzare come matita/rossetto long lasting: Dragon Fruit, n. #1 e la n. #5
 <article-slider class="mb-16 mt-4" :images="matiteLabbra" :has-border="false"></article-slider>
 
 Un look grafico realizzato sulla pagina di Pinalli con le nuove Cupid’s Arrow Mint e Cappuccino.
