@@ -10,13 +10,13 @@ tags:
   - solari
 
 articleImages:
-  - url: /solari/australian-gold-fresh-and-cool.webp
+  - url: https://ucarecdn.com/db50d61a-3f39-4371-bfd6-bdc196bfc0cf
     alt: Australian gold fresh and cool
-  - url: /solari/biotherme-waterlover-sun-mist.webp
+  - url: https://ucarecdn.com/830ad3fe-d813-4928-b1f6-c91c4c2d009a
     alt: Biotherme waterlover sun mist
-  - url: /solari/lancaster-sun-beauty-sublime-tan.webp
+  - url: https://ucarecdn.com/95c4d6c9-6014-4cff-8c6c-bc405856bf61
     alt: Lancaster sun beauty sublime tan
-  - url: /solari/veralab-para-sole.webp
+  - url: https://ucarecdn.com/68f15659-d721-409c-8ad4-aca98684aeec
     alt: Veralab para sole e dopo sole
 ---
 Da gennaio 2021 prima le Hawaii poi la riviera Maya, in Messico, e l’isola caraibica di Bonaire hanno vietato l'uso di prodotti solari contenenti **ossibenzone** e **octinossato**.
